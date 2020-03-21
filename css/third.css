@@ -1,0 +1,186 @@
+#container{
+    margin: 0px auto;
+    font-family: sans-serif;
+    width: 1000px;
+    clear: both;
+    background-color: rgba(255, 182, 193, 0.15)
+}
+.logoimg{
+    width: 150px;
+    height: 60px;
+    float: left;
+    margin-left: 60px;
+}
+
+/*-----menu-----*/
+#menu{
+    background-color: #1e526a;
+    width: 1000px;
+    height: 60px;
+    text-align: center;
+    
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu li{
+    display: inline-block;
+    margin: 10px;
+}
+
+#menu a{
+    display: block;
+    color: #ee8b26;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 45px;
+    outline-width: 70px;
+    
+}
+
+#menu a:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+#menu ul ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    
+}
+
+#menu li:hover ul{
+    display: block;
+}
+
+#menu li li{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+#menu li li a{
+    background-color: white;
+    color: gray;
+    font-size: 15px;
+    width: 100px;
+}
+
+#menu li li a:hover{
+    background-color: lightblue;
+    color: #1e526a;
+    width: 100%;
+}
+
+/*-----menubar標示-----*/
+#menubar{
+    background-color: lightgray;
+    color: #1e526a;
+    height: 30px;
+}
+#menubar h1{
+    padding: 5px 5px;
+    font-weight: bold;
+}
+
+#imgtop{
+    width: 100%;
+}
+
+#rundown{
+    width: 1000px;
+    height: 120px;
+    margin: 20px 3px;
+}
+
+#rundown img{
+    width: 800px;
+    margin-left: 90px;
+}
+
+/*-----main-----*/
+#main{
+    width: 100%;
+    height: 280px;
+    margin: 20px 3px;
+    
+    
+}
+
+#main ul{
+    
+    padding: 20px;
+    line-height: 18px;
+    margin-left: 100px;
+    
+}
+
+/*-----nav------*/
+#nav{
+    width: 900px;
+    height: 350px;
+    margin: 20px 3px;
+    line-height: 25px;　　　          　/* 設定文字行距 */
+    letter-spacing: 15px;　            　/* 設定文字間距 */
+    ;
+}
+
+#nav li{
+    padding: 5px 20px;
+    font-weight: bold;
+    color: #094bc3;
+    margin-left: 100px;
+}
+
+#nav p{
+    padding: 10px 30px ;
+    margin-left: 100px;
+}
+
+/*-----content------*/
+#content{
+    
+    width: 1000px;
+    height: 200px;
+    line-height: 24px;　　　          　
+    letter-spacing: 3px;
+    margin: 20px 3px;
+    
+}
+#content ul{
+    padding: 5px 20px;
+    margin-left: 110px;
+    line-height: 40px;　　　          　/* 設定文字行距 */
+}
+
+/*-----footer-----*/
+#footer{
+    background-color: #1e526a;
+    width: 980px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer i{
+    font-size: 50px;
+    color: white;
+}
+
+h1,h2,h3,h4{
+    font-weight: bolder;
+    margin-left: 100px;
+}
+
+#p{
+    width: 800px;
+    margin-left: 100px;
+    text-align: center;
+    border-bottom: 1px solid #1e526a;
+}
